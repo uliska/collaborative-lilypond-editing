@@ -14,3 +14,10 @@ Here are the steps:
     4. Other people go to the repository's github website, click on HTTP and copy the addrress that shows on the right
     5. Other people go to command line and call 'git clone <paste that address>' (so it should look this way: 'git clone https://YOUR_ACCOUT@github.com/LEADER_ACCOUNT/REPOSITORY_NAME.git')
     6. voila!
+
+
+
+Miscellaneous
+=============
+
+    * don't forget to create a .gitignore file.  We don't wwant to track logfiles etc.
