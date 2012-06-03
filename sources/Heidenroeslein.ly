@@ -1,11 +1,22 @@
 \version "2.15.39"
 
-melody = \relative c'' {
-  \clef treble
-  \key c \major
-  \time 4/4
+\header {
+  title = "Heidenröslein"
+  composer = "Franz Schubert"
+}
 
-  a b c d
+global = {
+  \key g \major
+  \time 2/4
+  \tempo "Lieblich." 4 = 69
+}
+
+melody = \relative c'' {
+  \global
+  \clef treble
+  \autoBeamOff
+
+  a8 b c d
 }
 
 text = \lyricmode {
@@ -13,32 +24,34 @@ text = \lyricmode {
 }
 
 upper = \relative c'' {
+  \global
   \clef treble
-  \key c \major
-  \time 4/4
-
-  a4 b c d
+  
+  a8 b c d
 }
 
 lower = \relative c {
+  \global
   \clef bass
-  \key c \major
-  \time 4/4
-
-  a2 c
+  
+  a4 c
 }
 
 \score {
   <<
-    \new Voice = "mel" { \autoBeamOff \melody }
+    \new Voice = "mel" { 
+        \set Staff.instrumentName = "Singstimme"
+        \melody 
+    }
     \new Lyrics \lyricsto mel \text
     \new PianoStaff <<
+      \set PianoStaff.instrumentName = "Pianoforte"
       \new Staff = "upper" \upper
       \new Staff = "lower" \lower
     >>
   >>
   \layout {
-    \context { \Staff \RemoveEmptyStaves }
+    
   }
   \midi { }
 }
