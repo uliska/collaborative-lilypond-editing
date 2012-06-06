@@ -50,7 +50,10 @@ lower = \relative c {
   \global
   \clef bass
   
-  a4 c
+  g8 r8 g8 r8 |
+  g8 r8 g8 r8 |
+  fis8 r8 c8 r8 |
+  b,8 r8 g,8 r8 |
 }
 
 \score {
