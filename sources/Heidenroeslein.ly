@@ -46,14 +46,14 @@ upper = \relative c'' {
   a8 b c d
 }
 
-lower = \relative c {
+lower = \relative c' {
   \global
   \clef bass
   
   g8 r8 g8 r8 |
   g8 r8 g8 r8 |
   fis8 r8 c8 r8 |
-  b,8 r8 g,8 r8 |
+  b8 r8 g8 r8 |
 }
 
 \score {
