@@ -3,6 +3,8 @@
 \header {
   title = "Heidenröslein"
   composer = "Franz Schubert"
+  dedication = "Ignaz Edlen von Mosen gewidmet"
+  poet = "Gedicht von J.&thinsp;W.&thinsp;v.&thinsp;Goethe"
 }
 
 global = {
@@ -50,10 +52,10 @@ lower = \relative c' {
   \global
   \clef bass
   
-  g8 r8 g8 r8 |
-  g8 r8 g8 r8 |
-  fis8 r8 c8 r8 |
-  b8 r8 g8 r8 |
+  g8 r8 g8 r8 | %1
+  g8 r8 g8 r8 | %2
+  fis8 r8 c8 r8 | %3
+  b8 r8 g8 r8 | %4
 }
 
 \score {
