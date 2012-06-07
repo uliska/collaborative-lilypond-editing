@@ -4,12 +4,14 @@ collaborative-lilypond-editing
 Proof-of-concept project on collaborative music editing using LilyPond
 
   Project members:
+  ----------------
   - Susan Dittmar <Susan.Dittmar@gmx.de>
   - Colin Hall <colinghall@gmail.com>
   - Urs Liska <mail@ursliska.de>
   - Janek Warchoł <janek.lilypond@gmail.com>
   
   Specification:
+  --------------
   1. A typesetting of Heidenroslein
   2. Fits on one page
   3. Compile without warnings or errors
@@ -18,6 +20,7 @@ Proof-of-concept project on collaborative music editing using LilyPond
   6. Coordination via private email with [LGC] subject prefix - *changed to communication via the issue tracker*
 
   Proceedings:
+  ------------
   1. Start from the template A.2.2 (Piano and melody with lyrics) here: 
   http://www.lilypond.org/doc/v2.15/Documentation/learning/piano-templates.html
   2. Move the music definitions to include files.
@@ -26,15 +29,18 @@ Proof-of-concept project on collaborative music editing using LilyPond
   even if they aren't strictly necessary to achieve 2. and 3.
   
   The project is complete when:
+  -----------------------------
   1. Collaborators agree the music looks good.
   2. Collaborators have produced a report.
   
   Next step:
+  ----------
   Establish the shared repository (Colin? Janek? Susan?) *- done*
   Put this project plan into a readme file or similar and upload to the shared repo - *done*
   
   
   Resources:
+  ----------
   http://javanese.imslp.info/files/imglnks/usimg/3/3c/IMSLP09270-SchubertD2=57_Heidenroslein.pdf
   
   http://help.github.com/send-pull-requests/
