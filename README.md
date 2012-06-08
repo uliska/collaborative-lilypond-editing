@@ -35,8 +35,9 @@ Proof-of-concept project on collaborative music editing using LilyPond
   
   Next step:
   ----------
-  Establish the shared repository (Colin? Janek? Susan?) *- done*
-  Put this project plan into a readme file or similar and upload to the shared repo - *done*
+  - Establish the shared repository (Colin? Janek? Susan?) - **done**
+  - Put this project plan into a readme file or similar and upload to the shared repo - **done**
+  - enter music
   
   
   Resources:
