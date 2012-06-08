@@ -39,8 +39,10 @@ melody = \relative f' {
 text = \lyricmode {
   Sah ein Knab' ein
   Rös -- lein stehn, 
-  Rös -- lein auf der Hei -- den,
-  war so jung und mor -- gen -- schön, 
+  Rös -- lein auf der
+  Hei -- den,
+  war so jung und
+  mor -- gen -- schön,
   lief er schnell es
   nah' zu sehn,
   sah's mit vie -- len 
