@@ -4,6 +4,9 @@ upper = \relative c'' {
   \clef treble
   
   a8 b c d
+  
+  r8 <fis a> r <d fis a> | %11
+  r8 <d g d'> r <d g b>\fermata | %12
 }
 
 lower = \relative c' {
