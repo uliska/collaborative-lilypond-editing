@@ -4,7 +4,7 @@
   title = "Heidenröslein"
   composer = "Franz Schubert"
   dedication = "Ignaz Edlen von Mosen gewidmet"
-  poet = "Gedicht von J.&thinsp;W.&thinsp;v.&thinsp;Goethe"
+  poet = "Gedicht von J. W. v. Goethe"
 }
 
 global = {
