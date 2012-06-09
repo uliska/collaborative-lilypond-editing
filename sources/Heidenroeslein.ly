@@ -41,3 +41,8 @@ melody = \relative f' {
 \include "./piano.ily"
 
 \include "./score.ily"
+
+% layout settings should be separate from the score definition.
+\layout {
+  indent = 25\mm
+}
