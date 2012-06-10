@@ -20,4 +20,4 @@ Here are the steps:
 Miscellaneous
 =============
 
-    * don't forget to create a .gitignore file.  We don't wwant to track logfiles etc.
+    * don't forget to create a .gitignore file.  We don't want to track logfiles etc.
