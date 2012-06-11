@@ -11,8 +11,8 @@
       \new Staff = "lower" \lower
     >>
   >>
-  \layout {
-    
-  }
+  % This \layout is just to ensure a pdf output.
+  % Style modifications should be done in master file.
+  \layout { }
   \midi { }
 }
