@@ -1,3 +1,6 @@
+% Help for Frescobaldi
+%%master: Heidenroeslein.ly
+
 
 upper = \relative c'' {
   \global
