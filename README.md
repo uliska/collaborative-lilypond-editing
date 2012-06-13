@@ -51,3 +51,5 @@ Proof-of-concept project on collaborative music editing using LilyPond
   http://www.lilypond.org/doc/v2.15/Documentation/contributor/git-for-the-impatient
   
   http://git-scm.com/book/en/Git-Basics-Recording-Changes-to-the-Repository
+  
+  http://scottchacon.com/2011/08/31/github-flow.html
