@@ -42,14 +42,26 @@ Proof-of-concept project on collaborative music editing using LilyPond
   
   Resources:
   ----------
+  The musical source: <br>
   http://javanese.imslp.info/files/imglnks/usimg/3/3c/IMSLP09270-SchubertD2=57_Heidenroslein.pdf
-  
-  http://help.github.com/send-pull-requests/
-  
+
+  Basic set-up information from LilPond's Contributors Guide: <br>
   http://www.lilypond.org/doc/v2.15/Documentation/contributor/setting-up
-  
+  <br>
   http://www.lilypond.org/doc/v2.15/Documentation/contributor/git-for-the-impatient
   
+  In-depth reading on git: <br>
   http://git-scm.com/book/en/Git-Basics-Recording-Changes-to-the-Repository
+  <br>
+  Better:
+  http://git-scm.com/book
+  <br>
+  or:
+  https://github.s3.amazonaws.com/media/progit.en.pdf
   
+  **Specific topics:** <br>
+  Git(hub) specific process for merging branches: <br>
+  http://help.github.com/send-pull-requests/
+  
+  General lightweight work-flow suggestion: <br>
   http://scottchacon.com/2011/08/31/github-flow.html
