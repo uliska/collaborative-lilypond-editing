@@ -60,6 +60,9 @@ Proof-of-concept project on collaborative music editing using LilyPond
   https://github.s3.amazonaws.com/media/progit.en.pdf
   
   **Specific topics:** <br>
+  Forking and branching: <br>
+  https://help.github.com/articles/fork-a-repo
+  <br>
   Git(hub) specific process for merging branches: <br>
   http://help.github.com/send-pull-requests/
   
