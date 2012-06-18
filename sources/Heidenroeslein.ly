@@ -4,7 +4,7 @@
   title = "Heidenröslein"
   composer = "Franz Schubert"
   dedication = "Ignaz Edlen von Mosen gewidmet"
-  poet = "Gedicht von J.&thinsp;W.&thinsp;v.&thinsp;Goethe"
+  poet = "Gedicht von J. W. v. Goethe"
 }
 
 global = {
@@ -36,21 +36,13 @@ melody = \relative f' {
   \bar "|."
 }
 
-text = \lyricmode {
-  Sah ein Knab’ ein
-  Rös -- lein stehn, 
-  Rös -- lein auf der
-  Hei -- den,
-  war so jung und
-  mor -- gen -- schön,
-  lief er schnell es
-  nah’ zu sehn,
-  sah’s mit vie -- len 
-  Freu -- den.
-  Rös -- lein, Rös -- lein, Rös -- lein rot,
-  Rös -- lein auf der Hei -- den.
-}
+\include "./lyrics.ily"
 
 \include "./piano.ily"
+
+% layout settings should be separate from the score definition.
+\layout {
+  indent = 22 \mm
+}
 
 \include "./score.ily"
