@@ -2,14 +2,35 @@
 %%master: Heidenroeslein.ly
 
 
-upper = \relative c'' {
+upper = \relative d' {
   \global
   \clef treble
-  
-  a8 b c d
-  
+    
+  r8 <d g b> r q | %1
+  r8 <e a c> r q | %2
+  r8 <d a' c> r <d fis a> | %3
+  r8 <d g d'> r <d g b> | %4
+  r8 <d g b> r q | %5
+  r8 <e a cis> r q | %6
+  r8 <a d> r <b e> | %7
+  r8 <g cis> r <fis d'> | %8
+  r8 <a d> r <b e> | %9
+  r8 <g cis> r <fis d'>\fermata | %10
   r8 <fis a> r <d fis a> | %11
   r8 <d g d'> r <d g b>\fermata | %12
+  r8 <e g c> r <c g' c> | %13
+  <g'~ b>8( <fis a>) g16-. b( c d) | %14
+  e8-. \appoggiatura e16 g8( c,-.) \appoggiatura c16 e8( | %15
+  <<
+    {
+      g,^.) a16.( b32) g4
+    }
+    \new Voice {
+      \voiceTwo
+      g8 fis( g4)
+    }
+  >>
+  \bar "|."
 }
 
 lower = \relative c' {
