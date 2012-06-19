@@ -1,3 +1,6 @@
+% Help for Frescobaldi
+%%master: Heidenroeslein.ly
+
 text = \lyricmode {
   Sah ein Knab’ ein
   Rös -- lein __ stehn, 

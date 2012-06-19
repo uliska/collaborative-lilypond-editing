@@ -1,3 +1,6 @@
+% Help for Frescobaldi
+%%master: Heidenroeslein.ly
+
 melody = \relative f' {
   \global
   \clef treble
