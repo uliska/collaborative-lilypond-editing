@@ -1,10 +1,14 @@
 \version "2.15.39"
 
+\paper {
+  #(include-special-characters)
+}
+
 \header {
   title = "Heidenröslein"
   composer = "Franz Schubert"
   dedication = "Ignaz Edlen von Mosen gewidmet"
-  poet = "Gedicht von J. W. v. Goethe"
+  poet = "Gedicht von J.&thinsp;W.&thinsp;v.&thinsp;Goethe"
 }
 
 global = {
