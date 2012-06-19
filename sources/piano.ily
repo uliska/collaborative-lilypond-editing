@@ -19,7 +19,7 @@ upper = \relative d' {
   r8 <fis a> r <d fis a> | %11
   r8 <d g d'> r <d g b>\fermata | %12
   r8 <e g c> r <c g' c> | %13
-  <g'~ b>8( <fis a>) g16-. b( c d) | %14
+  <g' b>8( <fis a>) g16-. b( c d) | %14
   e8-. \appoggiatura e16 g8( c,-.) \appoggiatura c16 e8( | %15
   <<
     {
