@@ -30,7 +30,7 @@ upper = \relative d' {
       g8 fis( g4)
     }
   >>
-  \bar "|."
+  \bar ":|"
 }
 
 lower = \relative c' {

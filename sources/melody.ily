@@ -16,10 +16,9 @@ melody = \relative f' {
   cis16[ d] e[ fis] d4
   d16[ fis] e[ d] cis[ b] ais[ b] 
   g'8.[ cis,16] d4\fermata
-  a8 a b c!
+  a8^\markup \italic "nachgebend" a b c!
   d e16[ fis] g4\fermata
-  e8 g c, e
+  e8^\markup \italic "wie oben" g c, e
   g,[ b16 a] g4 
   R2 * 2
-  \bar "|."
 }
