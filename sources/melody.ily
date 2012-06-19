@@ -14,7 +14,7 @@ melody = \relative f' {
   d16[ fis] e[ d] cis[ b] ais[ b] 
   g'8.[ cis,16] d4\fermata
   a8 a b c!
-  d e16 fis g4\fermata
+  d e16[ fis] g4\fermata
   e8 g c, e
   g,[ b16 a] g4 
   R2 * 2
