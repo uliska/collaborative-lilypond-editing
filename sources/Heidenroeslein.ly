@@ -2,6 +2,8 @@
 
 \paper {
   #(include-special-characters)
+  ragged-bottom = ##f
+  ragged-last-bottom = ##f
 }
 
 \header {
